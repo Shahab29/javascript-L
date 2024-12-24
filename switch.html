@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // var day = 4;
+        // switch (day) {
+        //     case 0:
+        //         console.log('sunday');
+        //         break;
+
+        //     case 1:
+        //         console.log('monday');
+        //         break;
+
+        //     case 2:
+        //         console.log('tuesday');
+        //         break;
+
+        //     case 3:
+        //         console.log('wednesday');
+        //         break;
+
+        //     case 4:
+        //         console.log('thuesday');
+        //         break;
+
+        //     case 5:
+        //         console.log('friday');
+        //         break;
+
+        //     case 5:
+        //         console.log('setaday');
+        //         break;
+        //     default:
+        //         console.log('Enter the valid day');
+        //         break;
+        // }
+
+
+
+
+        let num = parseInt(prompt("enter you number"));
+        let operator = prompt("enter you operater +,-,/,*");
+        let num2 = parseInt(prompt("enter you number"));
+        switch (operator) {
+
+            case "+":
+                var total = num + num2;
+                alert("add" + total);
+                break;
+
+                var total = num - num2;
+            case "-":
+                alert("min" + total);
+                break;
+
+            case "/":
+                var total = num / num2;
+                alert("divid" + total);
+                break;
+            case "*":
+
+                var total = num * num2;
+                alert("milti" + total);
+                break;
+
+
+            default:
+                alert('Enter not the valid number');
+                break;
+        }
+
+    </script>
+
+</body>
+
+</html>
